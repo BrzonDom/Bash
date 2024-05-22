@@ -1,0 +1,1 @@
+cat Resources/01.HelloWorldTxt.txt
