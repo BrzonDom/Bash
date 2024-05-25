@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 
 First_Name=Dominik
 Second_Name=Brzon
