@@ -1,5 +1,6 @@
 
-FIRST_NAME=Dominik
-SECOND_NAME=Brzon
+First_Name=Dominik
+Second_Name=Brzon
 
-echo $FIRST_NAME $SECOND_NAME
+echo First name: $First_Name
+echo Second name: $Second_Name
