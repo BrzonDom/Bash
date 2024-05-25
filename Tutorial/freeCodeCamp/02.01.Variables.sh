@@ -1,5 +1,5 @@
 
-First_Name = Dominik
-Second_Name = Brzon
+FIRST_NAME=Dominik
+SECOND_NAME=Brzon
 
-echo Hello $First_Name $Second_Name
+echo $FIRST_NAME $SECOND_NAME
