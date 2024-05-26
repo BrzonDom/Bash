@@ -18,3 +18,6 @@ echo From: $LOCATION_FROM/$FILE_COPY
 echo To: $LOCATION_TO/$FILE_COPY
 
 cp $LOCATION_FROM/$FILE_COPY $LOCATION_TO/$FILE_COPY
+
+# Execute:
+#   bash 02.02.Variables.sh
