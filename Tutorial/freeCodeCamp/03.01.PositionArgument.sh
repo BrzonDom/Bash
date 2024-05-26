@@ -27,3 +27,6 @@ echo
 echo Your name:
 echo First name: $First_Name
 echo Last name: $Last_Name
+
+# Execute:
+#   bash 03.01.PositionArgument.sh
