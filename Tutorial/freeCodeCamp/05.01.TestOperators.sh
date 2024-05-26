@@ -2,4 +2,4 @@
 
 [ hello = hello ]
 
-echo $?
+echo [ hello = hello ] = $?
