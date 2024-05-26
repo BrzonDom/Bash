@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 
 StrNum_List=(one two three four five)
 
