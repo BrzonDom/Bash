@@ -10,3 +10,6 @@
 # Use echo command to print "Hello World"
 
 echo "Hello World"
+
+# Execute:
+#   bash 01.01.HelloWorld.sh
