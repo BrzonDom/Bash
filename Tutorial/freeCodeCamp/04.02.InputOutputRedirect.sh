@@ -18,4 +18,8 @@
 #       grep -E and grep -F, respectively.  These variants are deprecated,
 #       but are provided for backward compatibility.
 
+
 ls -l /usr/bin | grep bash
+
+# Execute:
+#   bash 04.02.InputOutputRedirect.sh
