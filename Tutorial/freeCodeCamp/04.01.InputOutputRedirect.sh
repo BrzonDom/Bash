@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-echo Hello $1 $2
+echo Hello $First_Name $Last_Name
