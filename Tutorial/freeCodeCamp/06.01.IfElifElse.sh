@@ -30,4 +30,4 @@ else
 fi
 
 # Execute:
-#   bash 07.01.CaseStatements.sh [Username]
+#   bash 06.01.IfElifElse.sh [Name]
