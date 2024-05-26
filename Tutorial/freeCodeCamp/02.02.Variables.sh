@@ -1,0 +1,4 @@
+LOCATION_FROM=Resources/02.LocFrom
+LOCATION_TO=Resources/02.LocTo
+
+cp $LOCATION_FROM $LOCATION_TO
