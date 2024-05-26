@@ -1,8 +1,11 @@
 #!/usr/bin/bash
 
-# echo syntax:
-#   echo [option] [string]
-#   The echo command in Linux displays a string provided by the user.
+# echo - display a line of text
+#   SYNOPSIS:
+#       echo [SHORT-OPTION]... [STRING]...
+#       echo LONG-OPTION
+#   DESCRIPTION:
+#       Echo the STRING(s) to standard output.
 
 # Use echo command to print "Hello World"
 
