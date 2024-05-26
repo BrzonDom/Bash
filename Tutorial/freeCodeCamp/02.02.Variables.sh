@@ -1,5 +1,13 @@
 #!/usr/bin/bash
 
+# cp - copy files and directories
+#   SYNOPSIS:
+#       cp [OPTION]... [-T] SOURCE DEST
+#       cp [OPTION]... SOURCE... DIRECTORY
+#       cp [OPTION]... -t DIRECTORY SOURCE...
+#   DESCRIPTION:
+#       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
 LOCATION_FROM=Resources/02.LocFrom
 LOCATION_TO=Resources/02.LocTo
 
