@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 
 FILE=Resources/04.OutputLog.txt
 
