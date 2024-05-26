@@ -2,6 +2,9 @@
 
 FIRST_LIST=(one two three four five)
 
-echo $FIRST_LIST
+echo Full List: ${FIRST_LIST[@]}
+echo 
 
-echo ${FIRST_LIST[@]}
+echo 1.Item: $FIRST_LIST
+echo 2.Item: ${FIRST_LIST[1]}
+echo 3.Item: ${FIRST_LIST[2]}
