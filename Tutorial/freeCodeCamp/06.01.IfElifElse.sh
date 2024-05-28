@@ -1,9 +1,9 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # if - Execute commands based on conditional.
 #   SYNOPSIS:
 #       if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else COMMANDS; ] fi
-#   DESCRIPTION
+#   DESCRIPTION:
 #       Execute commands based on conditional.
 #
 #       The "if COMMANDS" list is executed.  If its exit status is zero, then the
