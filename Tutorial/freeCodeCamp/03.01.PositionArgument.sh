@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # read - Read a line from the standard input and split it into fields.
 #   SYNOPSIS:
@@ -14,6 +14,7 @@
 #       delimiters.
 #
 #       If no NAMEs are supplied, the line read is stored in the REPLY variable.
+
 
 # Use read to read user input
 
