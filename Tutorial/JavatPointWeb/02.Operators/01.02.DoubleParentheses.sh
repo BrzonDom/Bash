@@ -30,4 +30,9 @@ echo -e "\t" $Num1 "\n"
 ((Num1 -= 5))
 
 echo "Decrementation:"
+echo -e "\t" $Num1 "\n"
+
+((Num1 *= 5))
+
+echo "Multiplying:"
 echo -e "\t" $Num1
