@@ -3,22 +3,27 @@
 Num1=8
 Num2=2
 
-echo "Addition:"
+echo -e "Arithmetic Operators:\n"
+echo "  1.Num: $Num1"
+echo "  2.Num: $Num2"
+echo
+
+echo "  Addition:"
 echo -e "\t$Num1 + $Num2 = $(($Num1 + $Num2))\n"
 
-echo "Subtraction:"
+echo "  Subtraction:"
 echo -e "\t$Num1 - $Num2 = $(($Num1 - $Num2))\n"
 
-echo "Multiplication:"
+echo "  Multiplication:"
 echo -e "\t$Num1 * $Num2 = $(($Num1 * $Num2))\n"
 
-echo "Division:"
+echo "  Division:"
 echo -e "\t$Num1 / $Num2 = $(($Num1 / $Num2))\n"
 
-echo "Exponentiation:"
+echo "  Exponentiation:"
 echo -e "\t$Num1 ** $Num2 = $(($Num1 ** $Num2))\n"
 
-echo "Modular Division:"
+echo "  Modular Division:"
 echo -e "\t$Num1 % $Num2 = $(($Num1 % $Num2))\n"
 
 
