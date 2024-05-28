@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # case - Execute commands based on pattern matching.
 #   SYNOPSIS:
