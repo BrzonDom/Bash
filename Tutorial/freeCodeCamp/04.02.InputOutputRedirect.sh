@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # grep, egrep, fgrep - print lines that match patterns
 #   SYNOPSIS:
@@ -18,6 +18,8 @@
 #       grep -E and grep -F, respectively.  These variants are deprecated,
 #       but are provided for backward compatibility.
 
+
+# Use ls -l command in /usr/bin and filter using grep to print bash files in bin
 
 ls -l /usr/bin | grep bash
 
