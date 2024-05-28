@@ -1,4 +1,13 @@
-#!/usr/bin/bash
+#!/bin/bash
+
+# Arrays
+#   DESCRIPTION:
+#       Newer versions of Bash support one-dimensional arrays. Array elements 
+#       may be initialized with the variable[xx] notation. Alternatively, a 
+#       script may introduce the entire array by an explicit declare -a 
+#       variable statement. To dereference (retrieve the contents of) an array 
+#       element, use curly bracket notation, that is, ${element[xx]}.
+
 
 FIRST_LIST=(one two three four five)
 
