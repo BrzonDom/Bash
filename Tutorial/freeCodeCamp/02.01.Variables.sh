@@ -1,10 +1,18 @@
-#!/usr/bin/bash
+#!/bin/bash
 
-# Variavble syntax:
-#   Variable=<value>
-#   Variables are the containers which store data or a useful piece of information as the value inside them
+# Variables
+#   SYNOPSIS:
+#       [variable_name]=[value]
+#   DESCRIPTION:
+#       You can use variables as in any programming languages. There are no 
+#       data types. A variable in bash can contain a number, a character, 
+#       a string of characters.
 
-# Use Variable=value to print my full name 
+#       You have no need to declare a variable, just assigning a value to 
+#       its reference will create it.
+
+
+# Use [variable_name]=[value] to print my full name 
 
 First_Name=Dominik
 Second_Name=Brzon
