@@ -8,23 +8,23 @@ echo "  1.Num: $Num1"
 echo "  2.Num: $Num2"
 echo
 
-echo "  Addition:"
-echo -e "\t$Num1 + $Num2 = $(($Num1 + $Num2))\n"
+echo "    Addition:"
+echo -e "\t$Num1 + $Num2 == $(($Num1 + $Num2))\n"
 
-echo "  Subtraction:"
-echo -e "\t$Num1 - $Num2 = $(($Num1 - $Num2))\n"
+echo "    Subtraction:"
+echo -e "\t$Num1 - $Num2 == $(($Num1 - $Num2))\n"
 
-echo "  Multiplication:"
-echo -e "\t$Num1 * $Num2 = $(($Num1 * $Num2))\n"
+echo "    Multiplication:"
+echo -e "\t$Num1 * $Num2 == $(($Num1 * $Num2))\n"
 
-echo "  Division:"
-echo -e "\t$Num1 / $Num2 = $(($Num1 / $Num2))\n"
+echo "    Division:"
+echo -e "\t$Num1 / $Num2 == $(($Num1 / $Num2))\n"
 
-echo "  Exponentiation:"
-echo -e "\t$Num1 ** $Num2 = $(($Num1 ** $Num2))\n"
+echo "    Exponentiation:"
+echo -e "\t$Num1 ** $Num2 == $(($Num1 ** $Num2))\n"
 
-echo "  Modular Division:"
-echo -e "\t$Num1 % $Num2 = $(($Num1 % $Num2))\n\n"
+echo "    Modular Division:"
+echo -e "\t$Num1 % $Num2 == $(($Num1 % $Num2))\n\n"
 
 
 OrgNum=10
@@ -38,33 +38,33 @@ echo
 
 ((ModNum += 5))
 
-echo "  Incrementation:"
-echo -e "\t" $ModNum "\n"
+echo "    Incrementation:"
+echo -e "\t$OrgNum += 5 == $ModNum\n"
 
 
 ModNum=$OrgNum
 ((ModNum -= 5))
 
-echo "  Decrementation:"
-echo -e "\t" $ModNum "\n"
+echo "    Decrementation:"
+echo -e "\t$OrgNum -= 5 == $ModNum\n"
 
 
 ModNum=$OrgNum
 ((ModNum *= 5))
 
-echo "  Assignment Multiplication:"
-echo -e "\t" $ModNum "\n"
+echo "    Assignment Multiplication:"
+echo -e "\t$OrgNum *= 5 == $ModNum\n"
 
 
 ModNum=$OrgNum
 ((ModNum /= 5))
 
-echo "  Assignment Division:"
-echo -e "\t" $ModNum "\n"
+echo "    Assignment Division:"
+echo -e "\t$OrgNum /= 5 == $ModNum\n"
 
 
 ModNum=$OrgNum
 ((ModNum %= 3))
 
-echo "  Assignment Modular Division:"
-echo -e "\t" $ModNum
+echo "    Assignment Modular Division:"
+echo -e "\t$OrgNum %= 3 == $ModNum"
