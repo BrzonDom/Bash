@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # For loop
 #   SYNOPSIS:
@@ -23,3 +23,6 @@ for item in ${StrNum_List[@]};
     do echo "$item (${#item})"
 
 done
+
+# Execute:
+#   bash 09.01.ForLoops.sh
