@@ -1,4 +1,11 @@
-#!/usr/bin/bash
+#!/bin/bash
+
+# = Operator
+#   DESCRIPTION:
+#       Initializing or changing the value of a variable
+
+#       All-purpose assignment operator, which works for both arithmetic and string assignments.
+
 
 [ hello = hello ]
 echo [ hello = hello ] = $?
