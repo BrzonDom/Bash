@@ -1,3 +1,4 @@
+#!/bin/bash
 
 showname() {
 
@@ -16,5 +17,8 @@ showname $1
 
 if [ $? = 1 ]; then
     echo "I don't know you"
+
+else
+    echo "Hello Dominik"
 
 fi
