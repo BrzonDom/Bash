@@ -13,4 +13,7 @@ echo "Multiplication:"
 echo -e "\t" $(($Num1 * $Num2)) "\n"
 
 echo "Division:"
-echo -e "\t" $(($Num1 / $Num2))
+echo -e "\t" $(($Num1 / $Num2)) "\n"
+
+echo "Exponentiation:"
+echo -e "\t" $(($Num1 ** $Num2))
