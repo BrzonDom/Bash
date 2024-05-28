@@ -1,12 +1,15 @@
 #!/bin/bash 
 
-echo one two three > Resources/12.01.AWKContentTXT.txt
+TXT_File=Resources/12.01.AWKContentTXT.txt
+CSV_File=Resources/12.01.AWKContentCSV.csv
 
-awk '{print $1}' Resources/12.01.AWKContentTXT.txt
-awk '{print $2}' Resources/12.01.AWKContentTXT.txt
+echo one two three > $TXT_File
+
+awk '{print $1}' $TXT_File
+awk '{print $2}' $TXT_File
 
 
-echo one,two,three > Resources/12.01.AWKContentCSV.csv
+echo one,two,three > $CSV_File
 
-awk -F, '{print $1}' Resources/12.01.AWKContentCSV.csv
-awk -F, '{print $2}' Resources/12.01.AWKContentCSV.csv
+awk -F, '{print $1}' $CSV_File
+awk -F, '{print $2}' $CSV_File
