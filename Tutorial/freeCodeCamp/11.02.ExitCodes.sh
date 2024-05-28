@@ -14,4 +14,6 @@ showname() {
 
 showname $1
 
-echo $?
+if [ $? = 1 ]; then
+    echo "I don't know you"
+
