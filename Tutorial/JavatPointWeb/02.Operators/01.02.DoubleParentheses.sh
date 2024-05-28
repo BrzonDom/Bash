@@ -24,30 +24,38 @@ echo "  Exponentiation:"
 echo -e "\t$Num1 ** $Num2 = $(($Num1 ** $Num2))\n"
 
 echo "  Modular Division:"
-echo -e "\t$Num1 % $Num2 = $(($Num1 % $Num2))\n"
+echo -e "\t$Num1 % $Num2 = $(($Num1 % $Num2))\n\n"
 
 
-((Num1 += 5))
+OrgNum=10
+ModNum=$OrgNum
 
-echo "Incrementation:"
-echo -e "\t" $Num1 "\n"
+echo -e "Assignment Operators:\n"
 
-((Num1 -= 5))
+echo "  Org.Num: $OrgNum"
+echo
 
-echo "Decrementation:"
-echo -e "\t" $Num1 "\n"
+((ModNum += 5))
 
-((Num1 *= 5))
+echo "  Incrementation:"
+echo -e "\t" $ModNum "\n"
 
-echo "Multiplying:"
-echo -e "\t" $Num1 "\n"
+((ModNum -= 5))
 
-((Num1 /= 5))
+echo "  Decrementation:"
+echo -e "\t" $ModNum "\n"
 
-echo "Divising:"
-echo -e "\t" $Num1 "\n"
+((ModNum *= 5))
 
-((Num1 %= 5))
+echo "  Multiplying:"
+echo -e "\t" $ModNum "\n"
 
-echo "Modular Divising:"
-echo -e "\t" $Num1
+((ModNum /= 5))
+
+echo "  Divising:"
+echo -e "\t" $ModNum "\n"
+
+((ModNum %= 5))
+
+echo "  Modular Divising:"
+echo -e "\t" $ModNum
