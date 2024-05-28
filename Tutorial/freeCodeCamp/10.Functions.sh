@@ -14,3 +14,6 @@ EOF
 }
 
 showuptime
+
+# Execution:
+#   bash 10.Functions.sh
