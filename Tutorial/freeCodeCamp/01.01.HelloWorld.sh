@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 # echo - display a line of text
 #   SYNOPSIS:
