@@ -1,7 +1,7 @@
 
 showname() {
 
-    echo Hello $1
+    # echo Hello $1
 
     if [ ${1,,} = dominik ]; then
         return 0
@@ -17,3 +17,4 @@ showname $1
 if [ $? = 1 ]; then
     echo "I don't know you"
 
+fi
