@@ -19,4 +19,11 @@ echo "Exponentiation:"
 echo -e "\t" $(($Num1 ** $Num2)) "\n"
 
 echo "Modular Division:"
-echo -e "\t" $(($Num1 % $Num2))
+echo -e "\t" $(($Num1 % $Num2)) "\n"
+
+
+((Num1 += 5))
+
+echo "Incrementation:"
+echo -e "\t" $Num1
+
