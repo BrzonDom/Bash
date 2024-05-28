@@ -35,27 +35,36 @@ echo -e "Assignment Operators:\n"
 echo "  Org.Num: $OrgNum"
 echo
 
+
 ((ModNum += 5))
 
 echo "  Incrementation:"
 echo -e "\t" $ModNum "\n"
 
+
+ModNum=$OrgNum
 ((ModNum -= 5))
 
 echo "  Decrementation:"
 echo -e "\t" $ModNum "\n"
 
+
+ModNum=$OrgNum
 ((ModNum *= 5))
 
-echo "  Multiplying:"
+echo "  Assignment Multiplication:"
 echo -e "\t" $ModNum "\n"
 
+
+ModNum=$OrgNum
 ((ModNum /= 5))
 
-echo "  Divising:"
+echo "  Assignment Division:"
 echo -e "\t" $ModNum "\n"
 
-((ModNum %= 5))
 
-echo "  Modular Divising:"
+ModNum=$OrgNum
+((ModNum %= 3))
+
+echo "  Assignment Modular Division:"
 echo -e "\t" $ModNum
