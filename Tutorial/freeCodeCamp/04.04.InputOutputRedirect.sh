@@ -6,3 +6,6 @@ echo Goodbye World! >> $FILE
 
 echo
 cat $FILE
+
+# Execute:
+#   bash 04.04.InputOutputRedirect.sh
