@@ -1,4 +1,6 @@
-#!/usr/bin/bash
+#!/bin/bash
+
+# Use > operator to write "Hello World" into a file
 
 FILE=Resources/04.OutputLog.txt
 
