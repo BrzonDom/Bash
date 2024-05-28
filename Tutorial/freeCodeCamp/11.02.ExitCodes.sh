@@ -22,3 +22,6 @@ else
     echo "Hello Dominik"
 
 fi
+
+# Execute:
+#   bash 11.02.ExitCodes.sh [name]
