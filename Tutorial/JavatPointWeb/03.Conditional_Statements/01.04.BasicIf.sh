@@ -20,3 +20,14 @@ if [ 10 -lt 3 ]; then
 
     echo "10 is not less than 3"
 fi
+
+
+if [ 10 -eq 10 ]; then
+
+    echo "10 is equal to 10"
+fi
+
+if [ 10 -eq 9 ]; then
+
+    echo "10 is not equal to 9"
+fi
