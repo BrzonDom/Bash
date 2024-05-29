@@ -22,3 +22,24 @@
 #       => PlingPlang
 #   34
 #       => 34
+
+
+Drops=$1
+Sound=""
+
+if (( $1 % 3 == 0 )); then
+
+    Sound+="Pling"
+fi
+
+if (( $1 % 5 == 0 )); then
+
+    Sound+="Plang"
+fi
+
+if (( $1 % 7 == 0 )); then
+
+    Sound+="Plong"
+fi
+
+echo "${Sound:-$Drops}"
