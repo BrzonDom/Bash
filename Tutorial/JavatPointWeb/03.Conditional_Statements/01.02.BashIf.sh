@@ -6,4 +6,7 @@ if [ $number -gt 125 ]; then
 
     echo "Value is greater than 125"
 
+else
+    echo "Value is not greater than 125"
+
 fi
