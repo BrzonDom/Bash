@@ -13,3 +13,6 @@ if [ 1 == 1 ]; then
 
     echo "False condition"
 fi
+
+# Execute:
+#   bash 01.03.BasicIf.sh
