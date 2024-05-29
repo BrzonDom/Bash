@@ -10,3 +10,6 @@ else
     echo "Value is not greater than 125"
 
 fi
+
+# Execute:
+#   bash 01.02.BasicIf.sh
