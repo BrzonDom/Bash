@@ -24,17 +24,21 @@
 #       => 34
 
 
+Sound=""
+
 if (( $1 % 3 == 0 )); then
 
-    echo Pling
+    Sound+="Pling"
 fi
 
 if (( $1 % 5 == 0 )); then
 
-    echo Plang
+    Sound+="Plang"
 fi
 
 if (( $1 % 7 == 0 )); then
 
-    echo Plong
+    Sound+="Plong"
 fi
+
+echo "$Sound"
