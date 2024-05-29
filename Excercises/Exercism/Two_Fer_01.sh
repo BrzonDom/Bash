@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ -z $1 ]; then
-    echo "I don't know you"
+    echo "One for you, one for me."
 
 else
-    echo "Hello $1"
+    echo "One for $1, one for me."
 fi
