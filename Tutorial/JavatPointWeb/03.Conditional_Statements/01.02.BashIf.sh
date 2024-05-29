@@ -2,4 +2,8 @@
 
 read -p "Enter number: " number
 
-echo "Entered number: $number"
+if [ $number -gt 125 ]; then
+
+    echo "Value is greater than 125"
+
+fi
