@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Raindrops
+#   https://exercism.org/tracks/bash/exercises/raindrops
+
 # INTRODUCTION:
 #   Raindrops is a slightly more complex version of the FizzBuzz challenge, a classic 
 #   interview question.
