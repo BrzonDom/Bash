@@ -41,10 +41,4 @@ if (( $1 % 7 == 0 )); then
     Sound+="Plong"
 fi
 
-if [ -n "$Sound" ]; then
-
-    echo "$Sound"
-
-else
-    echo "$Drops"
-fi
+echo "${Sound:-$Drops}"
