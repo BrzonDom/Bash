@@ -27,19 +27,8 @@
 Drops=$1
 Sound=""
 
-if !(( $1 % 3 )); then
-
-    Sound+="Pling"
-fi
-
-if !(( $1 % 5 )); then
-
-    Sound+="Plang"
-fi
-
-if !(( $1 % 7 )); then
-
-    Sound+="Plong"
-fi
+(( $1 % 3 )) || Sound+="Pling"
+(( $1 % 5 )) || Sound+="Plang"
+(( $1 % 7 )) || Sound+="Plong"
 
 echo "${Sound:-$Drops}"
