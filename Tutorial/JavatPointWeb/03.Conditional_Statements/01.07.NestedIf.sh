@@ -9,4 +9,7 @@ if [ $1 -gt 50 ]; then
     else
         echo "Number is greater than 50"
     fi
+
+else
+    echo "Number is not greater than 50"
 fi
