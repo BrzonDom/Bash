@@ -7,7 +7,7 @@ if [ $1 -gt 50 ]; then
         echo "Number is greater than 50 and an even number"
 
     else
-        echo "Number is greater than 50"
+        echo "Number is greater than 50 and an odd number"
     fi
 
 else
