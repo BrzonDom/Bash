@@ -20,3 +20,6 @@ else
     echo "Condition is False"
 
 fi
+
+# Execute:
+#   bash 01.01.BasicIf.sh
