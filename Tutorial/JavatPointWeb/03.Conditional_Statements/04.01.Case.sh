@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Num=2
+read -p "Enter a number between 1-10:" Num 
 
 case $Num in 
 
