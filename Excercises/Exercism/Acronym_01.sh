@@ -9,8 +9,9 @@ len=${#Full_Str}
 echo "Input lenght: $len"
 echo
 
-for wrd in ${Full_Str[@]}; do
+for ((i = 0; i < len; i++)); do
+    char=${Full_Str:i:1}
 
-    echo $wrd
+    echo $char
 done
  
