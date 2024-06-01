@@ -10,6 +10,7 @@ echo "Input lenght: $len"
 echo
 
 Alph="[a-zA-Z]"
+Escp=(" " "_" ",")
 
 for ((i = 0; i < len; i++)); do
     char="${Full_Str:i:1}"
@@ -17,11 +18,18 @@ for ((i = 0; i < len; i++)); do
     
     if echo "$char" | grep -q "$Alph"; then
         type="Letter"
-    
-    else
-        type="Non-Letter"
-    fi
 
+    else
+        for esc in "${Escp[@]}"; do
+
+            if [[ "$char" == "$esc" ]]; then
+
+                type="Escape"
+                break
+            fi
+        done
+
+    fi
     echo -e "  $i.\t$char\t$type"
 
 done
