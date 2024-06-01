@@ -28,9 +28,8 @@ for ((i = 0; i < len; i++)); do
                 break
             fi
         done
-
     fi
-    echo -e "  $i.\t$char\t$type"
 
+    echo -e "  $i.\t$char\t$type"
 done
  
