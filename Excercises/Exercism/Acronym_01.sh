@@ -10,8 +10,8 @@ echo "Input lenght: $len"
 echo
 
 for ((i = 0; i < len; i++)); do
-    char=${Full_Str:i:1}
+    char="${Full_Str:i:1}"
 
-    echo $char
+    echo -e "  $i.\t$char"
 done
  
