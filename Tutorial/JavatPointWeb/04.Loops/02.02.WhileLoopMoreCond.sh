@@ -1,14 +1,14 @@
 #!/bin/bash
 
-read -p "Enter starting number: " snum  
-read -p "Enter ending number: " enum
+read -p "Enter starting number: " StrNum
+read -p "Enter ending number: " EndNum
 
-echo "Start number: $snum"
-echo "End number:   $enum"
+echo "Start number: $StrNum"
+echo "End number:   $EndNum"
 echo
 
-while [[ $snum -le $enum || $snum == $enum ]]; do
+while [[ $StrNum -le $EndNum || $StrNum == $EndNum ]]; do
 
-    echo $snum  
-    ((snum++))  
+    echo $StrNum  
+    ((StrNum++))  
 done
