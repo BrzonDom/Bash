@@ -9,13 +9,13 @@ len=${#Full_Str}
 echo "Input lenght: $len"
 echo
 
-Alph="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+Alph="[a-zA-Z]"
 
 for ((i = 0; i < len; i++)); do
     char="${Full_Str:i:1}"
     type="None"
     
-    if echo "$char" | grep "$Alph"; then
+    if echo "$char" | grep -q "$Alph"; then
         type="Letter"
     
     else
