@@ -1,7 +1,7 @@
 #!/bin/bash
 
-max=5
-a=1
+max=10
+a=3
 b=0
 
 until [[ $a -gt $max || $b -gt $max ]]; do
@@ -11,5 +11,5 @@ until [[ $a -gt $max || $b -gt $max ]]; do
     echo
 
     ((a++))
-    ((b++))
+    ((b += 2))
 done
