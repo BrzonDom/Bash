@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter any string separated by space: "
+read -p "Enter any string separated by space: " str
 
 delim=""
 
