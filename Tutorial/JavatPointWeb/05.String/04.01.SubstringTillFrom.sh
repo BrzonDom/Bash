@@ -1,11 +1,13 @@
 #!/bin/bash
 
-str="We welcome you on Javatpoint."  
+str="We welcome you on Javatpoint."
+lenStr=${#str}
 
 echo "String: $str"
-echo "Total characters in a String: ${#str} "  
+echo -e "\tString lenght: $lenStr\n"  
 
-substr="${str:0:10}"  
+sub="${str:0:10}"
+lenSub=${#sub}
 
-echo "Substring: $substr"  
-echo "Total characters in Substring: ${#substr} "
+echo "Substring: $sub"  
+echo -e "\tSubstring lenght: $lenSub"
