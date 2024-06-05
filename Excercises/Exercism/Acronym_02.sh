@@ -18,3 +18,9 @@ RepUp="${Rep^^}"
 echo "Replaced: $Rep"
 echo "Replaced Upper: $RepUp"
 echo 
+
+for word in $UpRep; do
+
+    echo "$word"
+done
+echo
