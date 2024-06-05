@@ -2,31 +2,28 @@
 
 Org=$1
 
-echo "Input: $Org"
-echo
+echo -e "Input: $Org\n"
 
 Up="${Org^^}"
 UpRep="${Up//[^A-Z]/" "}"
 
-echo "Upper: $Up"
-echo "Upper Replaced: $UpRep"
-echo 
+echo -e "Upper: \t\t\t$Up"
+echo -e "Upper Replaced: \t$UpRep\n"
 
 Rep="${Org//[^a-zA-Z]/" "}"
 RepUp="${Rep^^}"
 
-echo "Replaced: $Rep"
-echo "Replaced Upper: $RepUp"
-echo 
+echo -e "Replaced: \t\t$Rep"
+echo -e "Replaced Upper: \t$RepUp\n"
 
 for word in $UpRep; do
 
-    echo "${word:0:1} $word"
+    echo -e "\t${word:0:1} ${word:1}"
 done
 echo
 
 for word in $RepUp; do
 
-    echo "${word:0:1} $word"
+    echo -e "\t${word:0:1} ${word:1}"
 done
 echo
