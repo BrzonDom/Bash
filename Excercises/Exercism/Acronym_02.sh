@@ -1,16 +1,16 @@
 #!/bin/bash
 
-Org_Str=$1
+Org=$1
 
-echo "Input: $Org_Str"
+echo "Input: $Org"
 echo
 
-Up_Str="${Org_Str^^}"
+Up="${Org^^}"
 
-echo "Upper: $Up_Str"
+echo "Upper: $Up"
 echo
 
-Rep_Str="${Up_Str//[^A-Z]/" "}"
+Rep="${Up//[^A-Z]/" "}"
 
-echo "Replaced: $Rep_Str"
+echo "Replaced: $Rep"
 echo
