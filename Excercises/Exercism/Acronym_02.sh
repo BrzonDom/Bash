@@ -16,14 +16,26 @@ RepUp="${Rep^^}"
 echo -e "Replaced: \t\t$Rep"
 echo -e "Replaced Upper: \t$RepUp\n"
 
+AcrUpRep=""
+
 for word in $UpRep; do
 
     echo -e "\t${word:0:1} ${word:1}"
+    AcrUpRep+="${word:0:1}"
 done
 echo
+
+echo "Acronym: $AcrUpRep"
+echo
+
+AcrRepUp=""
 
 for word in $RepUp; do
 
     echo -e "\t${word:0:1} ${word:1}"
+    AcrRepUp+="${word:0:1}"
 done
+echo
+
+echo "Acronym: $AcrRepUp"
 echo
