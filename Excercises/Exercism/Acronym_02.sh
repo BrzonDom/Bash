@@ -21,12 +21,12 @@ echo
 
 for word in $UpRep; do
 
-    echo "$word"
+    echo "${word:0:1} $word"
 done
 echo
 
 for word in $RepUp; do
 
-    echo "$word"
+    echo "${word:0:1} $word"
 done
 echo
