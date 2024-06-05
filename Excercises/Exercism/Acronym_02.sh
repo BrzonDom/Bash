@@ -12,10 +12,15 @@ echo
 
 UpRep="${Up//[^A-Z]/" "}"
 
-echo "Replaced Upper: $UpRep"
-echo
+echo "Upper Replaced: $UpRep"
+echo 
 
 Rep="${Org//[^a-zA-Z]/" "}"
 
 echo "Replaced: $Rep"
 echo
+
+RepUp="${Rep^^}"
+
+echo "Replaced Upper: $RepUp"
+echo 
