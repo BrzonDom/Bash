@@ -10,7 +10,12 @@ Up="${Org^^}"
 echo "Upper: $Up"
 echo
 
-Rep="${Up//[^A-Z]/" "}"
+UpRep="${Up//[^A-Z]/" "}"
+
+echo "Replaced Upper: $UpRep"
+echo
+
+Rep="${Org//[^a-zA-Z]/" "}"
 
 echo "Replaced: $Rep"
 echo
