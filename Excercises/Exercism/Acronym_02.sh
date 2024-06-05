@@ -24,3 +24,9 @@ for word in $UpRep; do
     echo "$word"
 done
 echo
+
+for word in $RepUp; do
+
+    echo "$word"
+done
+echo
