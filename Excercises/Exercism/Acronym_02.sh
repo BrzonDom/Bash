@@ -6,21 +6,15 @@ echo "Input: $Org"
 echo
 
 Up="${Org^^}"
-
-echo "Upper: $Up"
-echo
-
 UpRep="${Up//[^A-Z]/" "}"
 
+echo "Upper: $Up"
 echo "Upper Replaced: $UpRep"
 echo 
 
 Rep="${Org//[^a-zA-Z]/" "}"
-
-echo "Replaced: $Rep"
-echo
-
 RepUp="${Rep^^}"
 
+echo "Replaced: $Rep"
 echo "Replaced Upper: $RepUp"
 echo 
